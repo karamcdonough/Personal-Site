@@ -1,0 +1,141 @@
+body {
+  color: #000000;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: #224b66;
+  margin: 50px auto 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+  color: #224b66;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #224b66;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #000000 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #343f56;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f7f3e9;
+}
+
+.copyright {
+  color: #f7f3e9;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-container {
+  background-color: #f7f3e9;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #557571;
+  padding: 50px 0 20px;
+}
+
+.bottom-snake {
+  position: absolute;
+  width: 10%;
+  left: 250px;
+  top: 300px;
+}
+
+.top-snake {
+  position: absolute;
+  width: 10%;
+  right: 300px;
+  top: 40px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 55%;
+  text-align: left;
+}
+
+.intro {
+  width: 35%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #224b66;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #224b66;
+  background-image: -webkit-linear-gradient(top, #224b66, #2c698f);
+  background-image: -moz-linear-gradient(top, #224b66, #2c698f);
+  background-image: -ms-linear-gradient(top, #224b66, #2c698f);
+  background-image: -o-linear-gradient(top, #224b66, #2c698f);
+  background-image: linear-gradient(to bottom, #224b66, #2c698f);
+  text-decoration: none;
+}
+
+.brain-fuse {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.san-francisco-house {
+  width: 25%;
+}
+
+.cactus {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.skele-hand {
+  width: 25%;
+}
